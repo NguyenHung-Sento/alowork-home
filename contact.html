@@ -1,0 +1,96 @@
+<!doctype html>
+<html lang="vi">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Liên hệ — AloWork</title>
+  <meta name="description" content="Liên hệ để yêu cầu trải nghiệm AloWork hoặc tư vấn tích hợp.">
+  <meta name="keywords" content="AloWork, liên hệ, trải nghiệm, tư vấn, doanh nghiệp, tin nhắn">
+  <link rel="icon" type="image/x-icon" href="images/favicon.ico">
+  <link rel="stylesheet" href="css/styles.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+  <link rel="icon" href="images/logo.png">
+</head>
+
+<body>
+  <header class="site-header">
+    <div class="container header-inner">
+      <a class="brand" href="index.html">
+        <span class="brand-text">AloWork</span>
+      </a>
+      <button id="nav-toggle" class="nav-toggle" aria-label="Mở menu">☰</button>
+      <nav class="nav" id="main-nav">
+        <a href="index.html">Trang chủ</a>
+        <a href="privacy.html">Chính sách</a>
+        <a href="terms.html">Điều khoản</a>
+        <a href="contact.html" class="cta">Liên hệ</a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="container contact-page">
+    <section class="section">
+      <h1 class="section-title">Liên hệ & Nhận tư vấn</h1>
+      <p>Gửi thông tin để đội ngũ AloWork liên hệ và trải nghiệm giải pháp cho doanh nghiệp bạn.</p>
+    </section>
+
+    <section class="section contact-grid">
+      <form id="contact-form" class="contact-form" novalidate>
+        <label for="email">Email liên hệ *</label>
+        <input id="email" name="email" type="email" required>
+
+        <label for="message">Nội dung yêu cầu *</label>
+        <textarea id="message" name="message" rows="6" required></textarea>
+
+        <div class="contact-legal">Bằng việc gửi, bạn đồng ý với <a href="privacy.html">Chính sách bảo mật</a> và <a
+            href="terms.html">Điều khoản sử dụng</a>.</div>
+
+        <button class="btn primary" type="submit">Gửi yêu cầu</button>
+      </form>
+
+      <aside class="contact-info">
+        <h3>Thông tin liên hệ</h3>
+        <p>Email: <a href="mailto:contact@alowork.com">contact@alowork.com</a></p>
+        <p>Phone: +84 123 456 789</p>
+        <p>Địa chỉ: Hà Nội, Việt Nam</p>
+      </aside>
+    </section>
+  </main>
+
+  <!-- Modal -->
+  <div id="modal" class="modal" aria-hidden="true">
+    <div class="modal-panel">
+      <h3 id="modal-title">Xác nhận gửi yêu cầu</h3>
+      <p id="modal-body">Bạn có chắc muốn gửi yêu cầu này tới đội ngũ AloWork? Chúng tôi sẽ liên hệ trong vòng 24 giờ.
+      </p>
+      <div class="modal-actions">
+        <button id="modal-cancel" class="btn outline">Hủy</button>
+        <button id="modal-confirm" class="btn primary">Gửi</button>
+      </div>
+    </div>
+  </div>
+
+  <div id="toast" class="toast" aria-hidden="true"></div>
+
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <div class="footer-brand">
+        <strong>AloWork</strong>
+        <p class="footer-note">© 2025 AloWork. All rights reserved.</p>
+      </div>
+      <nav>
+        <a href="index.html"><i class="fas fa-home"></i> Trang Chủ</a>
+        <a href="privacy.html"><i class="fas fa-shield-alt"></i> Chính Sách</a>
+        <a href="terms.html"><i class="fas fa-file-contract"></i> Điều Khoản</a>
+        <a href="contact.html"><i class="fas fa-envelope"></i> Liên Hệ</a>
+      </nav>
+    </div>
+  </footer>
+  <button class="back-to-top" id="backToTop" aria-label="Quay lại đầu trang">
+    <i class="fas fa-chevron-up"></i>
+  </button>
+  <script src="js/main.js"></script>
+</body>
+
+</html>
