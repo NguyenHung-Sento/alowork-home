@@ -562,6 +562,7 @@ body {
   .site-footer .footer-main {
     flex-direction: column;
     text-align: left;
+    align-items: center;
     gap: 0.25rem;
   }
 
