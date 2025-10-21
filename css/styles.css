@@ -48,6 +48,12 @@ body {
   gap: 1rem;
 }
 
+.header-logo {
+  width: 48px;
+  height: 48px;
+  margin-right: 0.4rem;
+}
+
 @media (max-width: 768px) {
   .site-header {
     position: fixed;
