@@ -34,6 +34,11 @@ document.addEventListener('DOMContentLoaded', function(){
             }
         }
 
+        // Auto close the menu when scrolling
+        if (mainNav.classList.contains('open')) {
+          mainNav.classList.remove('open');
+        }
+
         lastScrollTop = scrollTop <= 0 ? 0 : scrollTop;
     });
 

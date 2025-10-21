@@ -36,7 +36,6 @@ body {
   z-index: 100;
   transition: all 0.3s ease;
   width: 100%;
-  overflow-x: hidden;
 }
 
 .header-inner {
@@ -66,8 +65,6 @@ body {
   }
   .nav {
     width: 100%;
-    right: 0;
-    left: 0;
     background: #fff;
   }
 }
